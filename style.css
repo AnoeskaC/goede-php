@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#time {
+  margin: 0px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+.afternoon{
+  background: url("foto/middag.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.night{
+  background: url("foto/nacht.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.morning{
+  background: url("foto/ochtend.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.eavning{
+  background: url("foto/avond.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#night{
+  margin: 0px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 40px
+}
+
+#afternoon{
+  margin: 0px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 40px
+}
+
+#morning{
+  margin: 0px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 40px
+}
+
+#eavning{
+  margin: 0px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 40px
+}
